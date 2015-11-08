@@ -1,0 +1,53 @@
+.particular-emotion {
+    margin: 5px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.song-audio {
+    display: inline;
+}
+.nextSongs li, .genre li {
+    cursor: pointer;
+}
+
+.cheer li, .genre li {
+    vertical-align: text-bottom;
+    text-shadow: 1px 1px #000;
+    color: #fff;
+}
+.history-item {
+    cursor: pointer;
+}
+
+.fb-share-button {
+    position: relative;top:-5px;
+}
+.cheer li {
+    cursor: pointer;
+}
+
+.listening-to {
+    cursor: pointer;
+}
+
+ .fill {
+    background-color: #fff;
+    height : 100%;
+    position: fixed;
+}
+
+.sButtonBG {
+    background-color: #B200FF;
+    color: #fff;
+}
+
+.sButtonBG:hover {
+    background-color: #8e00cc;
+    color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+    .fill {
+        position: static;
+    }
+}

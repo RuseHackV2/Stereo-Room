@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+</head>
+<body>
+<ul class="list-inline genre">
+
+</ul>
+<script>
+    var genres = {Latin: 15, Pop: 32, Rock: 100, World: 18, Country: 16};
+    for (genre in genres) {
+        var height = genres[genre] * 2;
+        var html = $("<li><span style='display:inline-block;height:"+height+"px' class='list-group-item '>"+genre+"</span>");
+        $(".genre").append(html);
+    }
+</script>
+
+</body>
+</html>
